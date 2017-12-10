@@ -1,2 +1,2 @@
 # NextWeb_Clone
-thenextweb.com clone
+ Responsive thenextweb.com clone
