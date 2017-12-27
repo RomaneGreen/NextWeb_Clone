@@ -1,27 +1,98 @@
+
 *{
-    margin: auto;
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
-    background-color: green;
-  }
+    font-family: 'ARS maquette','Maven pro','helvetica neue','sans-serif';
+}
 
 
+.menu{
+    color:white;
+    background-color:black;
+    height: 2rem;
+}
 
- /*------------------------------------------
-  Responsive Grid Media Queries - 1280, 1024, 768, 480
-   1280-1024   - desktop (default grid)
-   1024-768    - tablet landscape
-   768-480     - tablet 
-   480-less    - phone landscape & smaller
---------------------------------------------*/
-@media all and (min-width: 1024px) and (max-width: 1280px) { }
+.nav{
+    color: grey;
+   background-color: green;
+   height: 3.4rem;
+   font-family: 'Ropa Sans', sans-serif;
+}
 
-@media all and (min-width: 768px) and (max-width: 1024px) { }
+.articlemain{
+    background-color: orangered;
+    height: 29rem;
+    display: inline-block;
+    float: left;
+}
 
-@media all and (min-width: 480px) and (max-width: 768px) {
-    *{
-        background-color: yellow;
+.articleside{
+    height: 14rem;
+    position: absolute;
+    display: inline-block;
+    
+}
+
+.articlesideb{
+    background-color: blue;
+    height: 14rem;
+   display: inline-block;   
+   position: relative;
+   top:14.9rem;
+}
+
+.latestnews{
+display: block;
+clear: both;
+height: 31rem;
+margin: 0 auto;
+margin-top:20rem;
+margin-bottom: 6rem;
+background-color: goldenrod;
+}
+
+.latestfunding{
+    display: block;
+    clear: both;
+    height: 18rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    background-color: royalblue;
     }
- }
 
-@media all and (max-width: 480px) { }
+
+    .assortedtopics{
+        display: block;
+        clear: both;
+        height: 66rem;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        background-color: purple;
+
+    }
+
+
+    .latestdeals{
+        display: block;
+        clear: both;
+        height: 30rem;
+        margin: 0 auto;
+        margin-bottom: 5rem;
+        background-color: red;
+
+    }
+
+
+.subfooter{
+    color: aliceblue;
+    background-color: #555555;
+    height: 10rem;
+    font-family: 'Ropa Sans', sans-serif;
+    display: block;
+    clear: both;
+}
+
+
+.footer{
+    color: aliceblue;
+    height: 6rem;
+    display: block;
+}
