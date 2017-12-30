@@ -5,20 +5,49 @@
 
 
 .menu{
-    color:white;
+    color:grey;
     background-color:black;
     height: 2rem;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 700;
+    
+}
+
+.menuright{
+    float: right;
+    
 }
 
 .nav{
     color: grey;
-   background-color: green;
+   background-color: white;
    height: 3.4rem;
-   font-family: 'Ropa Sans', sans-serif;
+   font-family: 'Shentox','sans-serif';
+   
+   line-height: 50px;
+   font-weight: 700;
+   letter-spacing: 0.56px;
+   
+}
+
+
+
+.navmenu{
+    float: right;
+    margin-left: 13rem;
+}
+
+hr{
+    background-color: green;
+    color: green;
+    border-top: 8px solid white;
+    position: relative;
+    bottom: .5rem;
 }
 
 .articlemain{
-    background-color: orangered;
+    background-color: white;
     height: 29rem;
     display: inline-block;
     float: left;
@@ -28,25 +57,29 @@
     height: 14rem;
     position: absolute;
     display: inline-block;
+    left:55.8rem;
     
 }
 
 .articlesideb{
-    background-color: blue;
+    background-color: white;
     height: 14rem;
    display: inline-block;   
-   position: relative;
-   top:14.9rem;
+   position: absolute;
+   top:20.2rem;
+   left:55.8rem;
 }
+
 
 .latestnews{
 display: block;
 clear: both;
 height: 31rem;
 margin: 0 auto;
-margin-top:20rem;
+margin-top:29rem;
 margin-bottom: 6rem;
-background-color: goldenrod;
+background-color: white;
+padding-top: 3rem;
 }
 
 .latestfunding{
@@ -55,44 +88,204 @@ background-color: goldenrod;
     height: 18rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    background-color: royalblue;
+    background-color: white;
     }
 
 
     .assortedtopics{
         display: block;
         clear: both;
-        height: 66rem;
+        height: 126rem;
         margin: 0 auto;
         margin-bottom: 5rem;
-        background-color: purple;
-
+        background-color:white;
+    
     }
+
+img[alt~='atopic']{
+
+     margin-top:6rem;
+}
+
+
 
 
     .latestdeals{
         display: block;
         clear: both;
-        height: 30rem;
+        height: 35rem;
         margin: 0 auto;
+        margin-top: 10rem;
         margin-bottom: 5rem;
-        background-color: red;
+        background-color: white;
 
     }
 
 
+    .latest{
+        font-size: 28px;
+        color: #f42;
+        font-family: 'Avalon','sans-serif';
+        font-weight: 700;
+        letter-spacing:-0.42px;
+        line-height:30.8px;
+        vertical-align: baseline;
+       position: relative;
+       top:5rem;
+       left:2rem;       
+       
+       word-spacing: 290px;
+    }
+
+
+
+    .latestz{
+        font-size: 28px;
+        color: #f42;
+        font-family: 'Avalon','sans-serif';
+        font-weight: 700;
+        letter-spacing:-0.42px;
+        line-height:30.8px;
+        vertical-align: baseline;
+       position: relative;
+       
+       left:2rem;       
+       
+       
+    }
 .subfooter{
     color: aliceblue;
-    background-color: #555555;
+    background-color: #131313;
     height: 10rem;
     font-family: 'Ropa Sans', sans-serif;
+    font-size: 13px;
     display: block;
     clear: both;
+    margin-top:10rem;
+    text-align: center;
+    line-height: 5rem;
 }
 
-
+.submenu{
+    position: relative;
+    bottom:1.5rem;
+}
 .footer{
     color: aliceblue;
     height: 6rem;
     display: block;
+    text-align: center;
+    line-height: 5rem;
 }
+
+
+.vert{
+    border:1px solid #555555;
+    background-color: #555555;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top:2rem;
+    margin-left:1rem;
+}
+
+.vert:hover{
+    background-color: black;
+}
+
+.heart{
+    color: red;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+    *{
+        width: 100%;
+        display: block;
+        text-align: center;
+        
+    }
+    img[alt~='amain']{
+    
+    border:3px solid rgb(187, 189, 187);
+    position: relative;
+    right:16.5rem;
+    }
+    .nav{
+        display: none;
+        
+    }
+
+    .vert{
+        color: rgb(250, 250, 250);
+        width: 35px;
+        margin-top: 3rem;
+    }
+
+    
+
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+   
+*{
+    width: 100%;
+    display: block;
+    text-align: center;
+   
+}
+
+
+img[alt~='amain']{
+    
+    border:3px solid green;
+    position: relative;
+    right:27rem;
+    }
+
+.nav{
+    display: none;
+    
+}
+
+.vert{
+    color: rgb(250, 250, 250);
+    width: 35px;
+    margin-top: 3rem;
+}
+
+ }
+
+@media all and (max-width: 480px) {
+
+    *{
+        width: 100%;
+        display: block;
+        text-align: center;
+       
+    }
+    
+    img[alt~='amain']{
+        
+        border:3px solid green;
+        position: relative;
+        right:38rem;
+        }
+    
+        .nav{
+            display: none;
+            
+        }
+
+        .menu{
+            display: none;
+        }
+
+       .vert{
+           color: rgb(250, 250, 250);
+           width: 35px;
+           margin-top: 3rem;
+       }
+    
+ }
